@@ -1,0 +1,52 @@
+.grand-parent-class
+{
+    background-color: aquamarine;
+    border: 2px solid red;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+.parent-class
+{
+    background-color: palevioletred;
+    border: 2px solid blueviolet;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+.child-class
+{
+    background-color: sienna;
+    border: 2px solid forestgreen;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+#post-container{
+    
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    height: 100%;
+
+}
+.post-card{
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    box-shadow: 1px 1px 0.5px 1px #ddd;
+    margin: auto 5px;
+    padding: 10px;
+    
+}
+.post-card h3{
+    text-align: center;
+}
+.post-card p{
+    text-align: justify;
+}
