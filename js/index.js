@@ -10,9 +10,9 @@ const loadPost=()=>{
 
 }
  const container=document.getElementById('post-container')
-//  container.innerHTML=""
+ 
 const displayData=(posts)=>{
-    
+    container.innerHTML=""
     posts.forEach((post)=>{
         const card=`
             <div class="post-card">
